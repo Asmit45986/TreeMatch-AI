@@ -1,0 +1,501 @@
+species_id,species_name,soil_types,min_ph,max_ph,min_temp_c,max_temp_c,min_rainfall_mm,max_rainfall_mm,aqi_max_tolerance,co2_absorption_kg_yr,maturation_years
+TREE_001,Gulmohar Type-1,"Black_Soil,Yellow_Soil",5.7,7.4,11,44,559,1718,3,15.5,14
+TREE_002,Mahogany Type-2,"Yellow_Soil,Alluvial_Soil",5.7,8.0,19,43,798,1847,5,25.8,13
+TREE_003,Cashew Type-3,"Alluvial_Soil,Laterite_Soil",5.8,7.0,13,36,414,2148,3,21.6,5
+TREE_004,Bahera Type-4,"Laterite_Soil,Yellow_Soil",5.3,8.2,15,41,408,1403,5,17.6,11
+TREE_005,Kadamba Type-5,"Arid_Soil,Yellow_Soil",5.1,8.1,11,46,711,2979,5,26.9,8
+TREE_006,Peepal Type-6,"Alluvial_Soil,Yellow_Soil",5.2,8.2,12,38,318,2079,5,23.6,8
+TREE_007,Jacaranda Type-7,"Yellow_Soil,Arid_Soil",5.5,7.6,15,37,352,1596,5,25.8,9
+TREE_008,Kadamba Type-8,"Mountain_Soil,Arid_Soil",6.3,7.8,14,47,550,1623,4,14.1,13
+TREE_009,Mahogany Type-9,"Arid_Soil,Mountain_Soil",6.3,7.5,20,35,349,2879,4,14.1,8
+TREE_010,Teak Type-10,"Yellow_Soil,Mountain_Soil",5.9,7.2,19,41,512,1504,5,14.8,6
+TREE_011,Amaltas Type-11,"Laterite_Soil,Alluvial_Soil",6.2,7.6,11,43,583,2640,5,26.8,6
+TREE_012,Teak Type-12,"Red_Soil,Yellow_Soil",5.3,7.9,16,47,732,1335,5,28.3,9
+TREE_013,Amaltas Type-13,"Mountain_Soil,Yellow_Soil",6.1,8.0,17,45,664,1499,3,21.9,7
+TREE_014,Gulmohar Type-14,"Laterite_Soil,Arid_Soil",5.1,8.0,12,38,357,2899,3,17.2,11
+TREE_015,Sandalwood Type-15,"Red_Soil,Black_Soil",5.1,7.8,11,44,690,1379,5,20.9,6
+TREE_016,Cashew Type-16,"Laterite_Soil,Black_Soil",5.9,7.5,15,45,354,1749,4,22.6,10
+TREE_017,Amaltas Type-17,"Red_Soil,Yellow_Soil",6.1,7.4,21,45,785,2645,3,19.2,14
+TREE_018,Cedar Type-18,"Laterite_Soil,Yellow_Soil",5.5,7.4,19,39,374,2122,4,27.9,5
+TREE_019,Sal Type-19,"Arid_Soil,Mountain_Soil",5.3,7.4,16,35,484,1283,3,15.6,5
+TREE_020,Arjun Tree Type-20,"Alluvial_Soil,Black_Soil",5.3,7.5,18,46,322,2984,3,26.5,5
+TREE_021,Cashew Type-21,"Arid_Soil,Yellow_Soil",5.6,7.1,10,40,793,1941,4,14.0,13
+TREE_022,Haritaki Type-22,"Arid_Soil,Laterite_Soil",5.9,8.4,12,39,371,2913,5,27.7,9
+TREE_023,Bahera Type-23,"Red_Soil,Laterite_Soil",5.5,8.2,16,37,773,1899,3,12.2,9
+TREE_024,Peepal Type-24,"Alluvial_Soil,Laterite_Soil",6.4,8.3,15,44,498,2858,3,27.0,8
+TREE_025,Oak Type-25,"Arid_Soil,Mountain_Soil",5.6,7.9,10,35,330,2495,3,24.2,5
+TREE_026,Bamboo Type-26,"Laterite_Soil,Arid_Soil",5.2,7.4,21,35,777,1710,3,28.3,13
+TREE_027,Haritaki Type-27,"Yellow_Soil,Red_Soil",5.4,7.5,21,39,524,2085,4,31.8,14
+TREE_028,Cashew Type-28,"Red_Soil,Alluvial_Soil",6.2,8.3,10,39,374,2279,3,15.2,14
+TREE_029,Jacaranda Type-29,"Black_Soil,Yellow_Soil",5.4,8.0,14,42,388,1333,3,25.6,7
+TREE_030,Jacaranda Type-30,"Mountain_Soil,Alluvial_Soil",6.2,7.1,18,38,638,1851,3,16.4,5
+TREE_031,Gulmohar Type-31,"Alluvial_Soil,Red_Soil",5.2,7.8,15,43,617,1730,4,17.8,8
+TREE_032,Acacia (Babool) Type-32,"Alluvial_Soil,Yellow_Soil",5.3,7.9,14,41,644,2051,5,15.4,5
+TREE_033,Oak Type-33,"Alluvial_Soil,Red_Soil",5.2,8.3,14,41,413,2058,4,30.8,12
+TREE_034,Bahera Type-34,"Yellow_Soil,Red_Soil",5.6,7.7,21,37,722,1350,5,16.7,7
+TREE_035,Amla Type-35,"Laterite_Soil,Yellow_Soil",5.6,7.4,11,39,644,1846,3,15.7,13
+TREE_036,Bahera Type-36,"Arid_Soil,Laterite_Soil",5.3,7.8,17,46,626,2955,4,18.9,6
+TREE_037,Peepal Type-37,"Yellow_Soil,Arid_Soil",6.0,7.5,16,45,312,2832,4,20.4,6
+TREE_038,Karanj Type-38,"Red_Soil,Black_Soil",5.2,8.3,16,45,670,2308,5,12.6,7
+TREE_039,Cashew Type-39,"Mountain_Soil,Alluvial_Soil",6.2,8.2,20,47,376,2524,3,19.2,9
+TREE_040,Teak Type-40,"Alluvial_Soil,Yellow_Soil",5.6,7.7,20,42,552,1443,5,19.1,10
+TREE_041,Eucalyptus Type-41,"Red_Soil,Laterite_Soil",6.1,7.2,21,46,436,2851,3,28.4,14
+TREE_042,Teak Type-42,"Arid_Soil,Mountain_Soil",5.0,7.7,13,39,664,1873,4,17.8,6
+TREE_043,Kadamba Type-43,"Mountain_Soil,Laterite_Soil",6.1,8.3,14,43,376,2657,4,28.1,11
+TREE_044,Oak Type-44,"Mountain_Soil,Red_Soil",5.2,8.2,11,36,565,2901,3,24.9,6
+TREE_045,Haritaki Type-45,"Alluvial_Soil,Yellow_Soil",5.0,8.4,18,44,750,1606,4,30.9,10
+TREE_046,Pine Type-46,"Arid_Soil,Yellow_Soil",5.7,8.3,12,39,308,1760,5,12.4,8
+TREE_047,Sandalwood Type-47,"Black_Soil,Red_Soil",5.4,7.8,12,39,599,2596,5,16.4,10
+TREE_048,Gulmohar Type-48,"Arid_Soil,Yellow_Soil",5.4,7.5,15,45,300,2685,3,23.8,8
+TREE_049,Neem Type-49,"Black_Soil,Laterite_Soil",6.0,7.5,12,47,497,2197,5,22.1,12
+TREE_050,Haritaki Type-50,"Yellow_Soil,Black_Soil",6.0,7.2,14,44,584,1615,5,22.4,6
+TREE_051,Gulmohar Type-51,"Yellow_Soil,Laterite_Soil",6.2,7.6,19,41,358,2043,5,29.4,9
+TREE_052,Cedar Type-52,"Laterite_Soil,Alluvial_Soil",5.8,7.8,15,40,329,2616,4,25.0,12
+TREE_053,Teak Type-53,"Black_Soil,Arid_Soil",5.2,7.8,13,45,529,1543,5,27.8,14
+TREE_054,Eucalyptus Type-54,"Laterite_Soil,Black_Soil",6.2,8.5,19,37,792,1256,3,28.0,11
+TREE_055,Eucalyptus Type-55,"Yellow_Soil,Laterite_Soil",5.1,8.4,19,41,352,1579,3,12.4,8
+TREE_056,Deodar Type-56,"Black_Soil,Arid_Soil",5.2,7.7,15,43,527,2259,4,30.4,13
+TREE_057,Cedar Type-57,"Yellow_Soil,Red_Soil",5.4,7.3,13,44,773,1228,4,22.0,11
+TREE_058,Oak Type-58,"Arid_Soil,Red_Soil",6.3,7.9,10,42,581,1684,3,26.5,11
+TREE_059,Khejri Type-59,"Alluvial_Soil,Black_Soil",6.1,7.7,21,41,506,2141,5,31.2,12
+TREE_060,Teak Type-60,"Laterite_Soil,Yellow_Soil",5.8,7.5,21,47,674,2881,4,29.2,12
+TREE_061,Cedar Type-61,"Alluvial_Soil,Mountain_Soil",5.4,7.2,21,47,515,2580,3,27.0,10
+TREE_062,Bamboo Type-62,"Arid_Soil,Black_Soil",5.3,7.3,20,46,460,2818,3,26.9,6
+TREE_063,Eucalyptus Type-63,"Arid_Soil,Alluvial_Soil",5.7,7.4,13,35,527,2526,3,15.0,5
+TREE_064,Eucalyptus Type-64,"Alluvial_Soil,Arid_Soil",5.6,7.0,10,44,589,2285,4,19.2,8
+TREE_065,Amaltas Type-65,"Alluvial_Soil,Yellow_Soil",5.4,7.9,10,41,571,1226,3,16.2,5
+TREE_066,Bamboo Type-66,"Mountain_Soil,Black_Soil",6.0,7.5,16,42,519,1881,5,16.2,7
+TREE_067,Arjun Tree Type-67,"Alluvial_Soil,Arid_Soil",5.8,7.6,21,38,520,1895,3,20.7,10
+TREE_068,Bahera Type-68,"Laterite_Soil,Yellow_Soil",5.4,7.1,14,38,303,1602,4,24.3,7
+TREE_069,Khejri Type-69,"Mountain_Soil,Black_Soil",6.2,7.1,10,41,687,2388,3,12.0,10
+TREE_070,Bamboo Type-70,"Black_Soil,Alluvial_Soil",6.4,7.0,10,47,548,2941,5,14.6,14
+TREE_071,Pine Type-71,"Arid_Soil,Red_Soil",5.4,8.4,18,40,371,1901,4,21.2,6
+TREE_072,Cashew Type-72,"Red_Soil,Arid_Soil",6.1,7.4,15,40,715,1337,4,18.1,11
+TREE_073,Banyan Type-73,"Yellow_Soil,Red_Soil",5.8,8.1,13,47,739,2093,5,14.2,14
+TREE_074,Arjun Tree Type-74,"Mountain_Soil,Laterite_Soil",6.2,8.3,17,47,473,1390,3,27.1,7
+TREE_075,Karanj Type-75,"Alluvial_Soil,Arid_Soil",6.4,8.5,16,43,507,2050,3,14.8,5
+TREE_076,Banyan Type-76,"Mountain_Soil,Black_Soil",5.7,7.9,21,37,314,2859,4,30.9,10
+TREE_077,Arjun Tree Type-77,"Mountain_Soil,Yellow_Soil",6.4,8.2,17,41,607,2314,3,23.5,14
+TREE_078,Kadamba Type-78,"Mountain_Soil,Black_Soil",5.4,8.0,21,44,477,2409,4,19.3,5
+TREE_079,Shisham Type-79,"Black_Soil,Arid_Soil",5.3,8.4,15,43,311,2952,3,28.5,10
+TREE_080,Bahera Type-80,"Yellow_Soil,Red_Soil",5.3,7.8,16,45,798,2286,3,19.4,11
+TREE_081,Jacaranda Type-81,"Yellow_Soil,Red_Soil",6.0,8.3,19,43,716,2494,5,20.5,13
+TREE_082,Oak Type-82,"Laterite_Soil,Mountain_Soil",6.2,8.1,13,47,649,1751,3,25.3,10
+TREE_083,Mahogany Type-83,"Alluvial_Soil,Mountain_Soil",6.5,8.0,15,39,492,2512,3,29.7,6
+TREE_084,Silver Oak Type-84,"Red_Soil,Arid_Soil",6.3,7.2,15,41,572,2837,5,26.2,13
+TREE_085,Haritaki Type-85,"Alluvial_Soil,Laterite_Soil",6.5,7.8,21,46,689,2647,4,28.6,8
+TREE_086,Amaltas Type-86,"Mountain_Soil,Red_Soil",6.2,8.3,11,44,454,1579,4,31.5,13
+TREE_087,Khejri Type-87,"Black_Soil,Red_Soil",5.0,8.3,20,44,678,1971,4,12.7,8
+TREE_088,Teak Type-88,"Black_Soil,Laterite_Soil",5.8,7.9,21,39,618,2554,3,24.4,5
+TREE_089,Bahera Type-89,"Red_Soil,Yellow_Soil",5.4,7.1,15,42,610,1583,3,27.3,9
+TREE_090,Amla Type-90,"Laterite_Soil,Yellow_Soil",5.5,8.4,20,42,589,2077,3,25.9,5
+TREE_091,Arjun Tree Type-91,"Laterite_Soil,Red_Soil",5.6,7.6,20,41,387,2346,5,19.7,14
+TREE_092,Amla Type-92,"Yellow_Soil,Arid_Soil",6.5,8.0,21,42,459,1307,3,15.9,11
+TREE_093,Silver Oak Type-93,"Red_Soil,Laterite_Soil",5.7,7.8,16,42,558,2528,4,25.1,13
+TREE_094,Neem Type-94,"Yellow_Soil,Laterite_Soil",5.6,7.8,13,46,341,1336,5,28.1,11
+TREE_095,Amaltas Type-95,"Red_Soil,Arid_Soil",6.0,7.8,10,38,702,1437,3,13.1,10
+TREE_096,Bamboo Type-96,"Red_Soil,Mountain_Soil",5.6,8.1,13,37,781,1795,4,19.1,14
+TREE_097,Arjun Tree Type-97,"Red_Soil,Laterite_Soil",6.1,8.4,10,38,638,2007,3,25.8,11
+TREE_098,Khejri Type-98,"Mountain_Soil,Arid_Soil",5.8,8.2,19,37,765,1438,5,18.7,8
+TREE_099,Cashew Type-99,"Arid_Soil,Alluvial_Soil",5.2,7.9,19,41,517,2033,5,18.3,13
+TREE_100,Sandalwood Type-100,"Alluvial_Soil,Mountain_Soil",5.9,8.5,15,38,707,1284,4,16.6,10
+TREE_101,Oak Type-101,"Laterite_Soil,Black_Soil",6.1,8.0,12,44,302,2154,4,23.3,7
+TREE_102,Bamboo Type-102,"Laterite_Soil,Red_Soil",5.7,8.1,20,42,453,1590,3,17.5,9
+TREE_103,Pine Type-103,"Black_Soil,Red_Soil",5.8,7.2,14,38,747,2448,5,22.4,10
+TREE_104,Banyan Type-104,"Yellow_Soil,Laterite_Soil",6.3,7.1,10,44,519,2964,4,24.6,6
+TREE_105,Amaltas Type-105,"Arid_Soil,Alluvial_Soil",5.3,7.1,17,47,551,2381,4,25.8,12
+TREE_106,Sal Type-106,"Mountain_Soil,Alluvial_Soil",5.6,8.0,20,43,522,2580,4,14.9,11
+TREE_107,Peepal Type-107,"Alluvial_Soil,Mountain_Soil",5.8,7.2,10,46,477,1816,3,24.4,10
+TREE_108,Neem Type-108,"Alluvial_Soil,Laterite_Soil",5.6,7.1,15,37,733,2881,4,27.7,9
+TREE_109,Bamboo Type-109,"Yellow_Soil,Laterite_Soil",5.6,7.8,17,38,613,2963,3,20.8,5
+TREE_110,Cedar Type-110,"Black_Soil,Yellow_Soil",6.0,7.4,10,46,345,2576,3,31.1,7
+TREE_111,Pine Type-111,"Red_Soil,Yellow_Soil",5.9,8.4,15,45,430,1699,4,26.0,11
+TREE_112,Cashew Type-112,"Laterite_Soil,Black_Soil",5.2,7.3,20,44,752,2663,3,13.6,11
+TREE_113,Karanj Type-113,"Yellow_Soil,Arid_Soil",6.4,8.0,14,42,381,2002,4,25.1,10
+TREE_114,Karanj Type-114,"Yellow_Soil,Alluvial_Soil",5.0,7.1,21,46,460,1739,5,31.3,6
+TREE_115,Oak Type-115,"Arid_Soil,Mountain_Soil",5.9,7.9,21,36,731,1875,3,15.8,5
+TREE_116,Teak Type-116,"Red_Soil,Arid_Soil",6.5,7.5,10,47,675,1637,5,30.3,7
+TREE_117,Arjun Tree Type-117,"Arid_Soil,Yellow_Soil",6.4,7.7,16,40,326,2403,3,14.3,5
+TREE_118,Mahogany Type-118,"Red_Soil,Yellow_Soil",6.0,7.7,17,44,614,2619,5,20.3,9
+TREE_119,Gulmohar Type-119,"Laterite_Soil,Black_Soil",6.0,7.7,14,44,309,1898,3,28.4,12
+TREE_120,Sandalwood Type-120,"Red_Soil,Black_Soil",5.5,8.3,21,37,489,2003,4,28.3,7
+TREE_121,Amaltas Type-121,"Alluvial_Soil,Laterite_Soil",5.1,7.6,18,36,379,1349,5,13.5,14
+TREE_122,Karanj Type-122,"Red_Soil,Yellow_Soil",5.6,8.4,18,37,722,2027,3,25.6,8
+TREE_123,Bamboo Type-123,"Arid_Soil,Mountain_Soil",5.8,8.4,16,42,502,1715,3,28.6,14
+TREE_124,Cashew Type-124,"Laterite_Soil,Mountain_Soil",6.2,7.7,15,43,451,2129,4,16.6,7
+TREE_125,Acacia (Babool) Type-125,"Laterite_Soil,Mountain_Soil",5.1,7.5,15,40,740,2403,5,25.2,7
+TREE_126,Khejri Type-126,"Arid_Soil,Yellow_Soil",5.6,7.2,17,38,309,2213,5,25.9,7
+TREE_127,Oak Type-127,"Alluvial_Soil,Laterite_Soil",5.7,7.4,16,45,586,2423,3,27.2,13
+TREE_128,Oak Type-128,"Black_Soil,Yellow_Soil",5.5,8.0,13,39,369,2630,5,15.7,13
+TREE_129,Karanj Type-129,"Laterite_Soil,Mountain_Soil",6.4,8.2,15,36,327,2555,5,12.2,10
+TREE_130,Sal Type-130,"Arid_Soil,Alluvial_Soil",5.6,8.4,18,39,577,1282,3,18.1,7
+TREE_131,Jacaranda Type-131,"Mountain_Soil,Red_Soil",5.6,7.9,21,37,444,2397,3,22.6,11
+TREE_132,Sandalwood Type-132,"Mountain_Soil,Laterite_Soil",6.1,8.5,11,42,554,1786,4,12.3,8
+TREE_133,Jacaranda Type-133,"Alluvial_Soil,Black_Soil",5.9,7.6,15,44,789,1605,3,29.0,13
+TREE_134,Gulmohar Type-134,"Black_Soil,Mountain_Soil",6.4,7.2,19,46,464,1605,3,19.8,14
+TREE_135,Amla Type-135,"Black_Soil,Yellow_Soil",5.9,8.3,17,40,608,2438,5,16.1,10
+TREE_136,Sandalwood Type-136,"Mountain_Soil,Yellow_Soil",5.5,7.7,18,45,582,2628,3,18.9,12
+TREE_137,Peepal Type-137,"Alluvial_Soil,Black_Soil",5.2,7.7,11,44,729,2783,3,12.1,11
+TREE_138,Haritaki Type-138,"Yellow_Soil,Laterite_Soil",5.1,8.1,15,41,525,2719,4,31.0,10
+TREE_139,Arjun Tree Type-139,"Alluvial_Soil,Mountain_Soil",6.1,8.5,21,39,373,1632,3,28.7,6
+TREE_140,Arjun Tree Type-140,"Arid_Soil,Laterite_Soil",5.7,7.7,19,37,678,1483,3,24.6,7
+TREE_141,Pine Type-141,"Arid_Soil,Red_Soil",5.5,7.8,10,44,530,1422,3,28.5,12
+TREE_142,Amaltas Type-142,"Laterite_Soil,Arid_Soil",5.1,7.6,14,36,790,2439,3,23.5,13
+TREE_143,Bamboo Type-143,"Laterite_Soil,Black_Soil",6.0,7.8,11,36,750,2193,5,23.8,11
+TREE_144,Arjun Tree Type-144,"Yellow_Soil,Red_Soil",6.1,7.4,12,40,787,1267,4,27.2,12
+TREE_145,Amaltas Type-145,"Red_Soil,Arid_Soil",5.9,7.9,10,39,382,1730,4,19.4,6
+TREE_146,Teak Type-146,"Yellow_Soil,Laterite_Soil",5.6,7.1,17,40,634,1995,3,24.4,8
+TREE_147,Amla Type-147,"Alluvial_Soil,Arid_Soil",6.0,7.6,19,35,675,1606,4,31.7,13
+TREE_148,Haritaki Type-148,"Laterite_Soil,Black_Soil",5.7,7.9,18,42,347,2545,3,25.8,8
+TREE_149,Mahogany Type-149,"Arid_Soil,Laterite_Soil",5.2,7.0,18,38,530,2270,3,14.6,7
+TREE_150,Peepal Type-150,"Yellow_Soil,Arid_Soil",5.7,7.6,12,36,650,1583,3,24.5,8
+TREE_151,Amaltas Type-151,"Black_Soil,Alluvial_Soil",5.9,7.3,21,46,541,1437,3,19.1,10
+TREE_152,Neem Type-152,"Laterite_Soil,Yellow_Soil",6.1,8.3,17,37,635,2547,5,31.5,8
+TREE_153,Amla Type-153,"Alluvial_Soil,Laterite_Soil",5.3,7.5,20,46,464,2798,3,26.6,13
+TREE_154,Peepal Type-154,"Yellow_Soil,Arid_Soil",5.3,7.3,19,46,699,1350,3,14.6,8
+TREE_155,Gulmohar Type-155,"Alluvial_Soil,Red_Soil",5.7,7.4,19,39,655,2811,4,17.7,5
+TREE_156,Neem Type-156,"Arid_Soil,Alluvial_Soil",5.7,7.2,13,46,477,2436,4,26.5,11
+TREE_157,Jacaranda Type-157,"Red_Soil,Yellow_Soil",5.6,7.8,11,41,771,1277,5,27.8,5
+TREE_158,Deodar Type-158,"Yellow_Soil,Arid_Soil",5.9,8.3,11,47,657,2171,4,12.3,9
+TREE_159,Bahera Type-159,"Arid_Soil,Black_Soil",5.5,8.4,21,43,588,2323,3,18.0,5
+TREE_160,Mahogany Type-160,"Arid_Soil,Yellow_Soil",6.1,8.2,10,36,600,2950,4,20.1,11
+TREE_161,Khejri Type-161,"Black_Soil,Red_Soil",6.0,7.6,15,41,541,1558,4,23.0,5
+TREE_162,Cashew Type-162,"Laterite_Soil,Yellow_Soil",5.1,7.8,16,44,550,2597,5,22.6,12
+TREE_163,Acacia (Babool) Type-163,"Alluvial_Soil,Laterite_Soil",5.5,7.1,14,43,546,1494,5,20.0,5
+TREE_164,Shisham Type-164,"Laterite_Soil,Alluvial_Soil",5.2,8.1,16,41,425,2791,5,21.0,14
+TREE_165,Banyan Type-165,"Black_Soil,Arid_Soil",5.6,8.0,10,43,730,2376,4,30.0,10
+TREE_166,Pine Type-166,"Red_Soil,Laterite_Soil",5.1,7.2,11,40,465,1231,3,16.4,7
+TREE_167,Bahera Type-167,"Black_Soil,Alluvial_Soil",5.4,8.0,16,47,689,2187,3,13.0,7
+TREE_168,Silver Oak Type-168,"Red_Soil,Alluvial_Soil",6.1,7.6,21,39,657,2976,5,30.6,14
+TREE_169,Eucalyptus Type-169,"Yellow_Soil,Arid_Soil",6.3,7.7,17,45,713,1805,3,31.3,13
+TREE_170,Haritaki Type-170,"Arid_Soil,Red_Soil",6.1,7.7,11,41,495,2371,5,26.1,12
+TREE_171,Amla Type-171,"Red_Soil,Laterite_Soil",5.4,7.6,11,35,578,2290,5,29.6,11
+TREE_172,Silver Oak Type-172,"Yellow_Soil,Laterite_Soil",6.4,8.4,16,45,639,1347,3,26.0,13
+TREE_173,Acacia (Babool) Type-173,"Mountain_Soil,Yellow_Soil",5.5,7.7,16,46,594,2290,3,24.4,11
+TREE_174,Teak Type-174,"Mountain_Soil,Red_Soil",5.0,7.2,16,46,340,2806,3,15.6,7
+TREE_175,Mahogany Type-175,"Arid_Soil,Mountain_Soil",6.0,7.8,13,41,685,2196,4,23.9,5
+TREE_176,Mahogany Type-176,"Yellow_Soil,Alluvial_Soil",6.0,7.8,19,46,499,2823,4,30.7,13
+TREE_177,Jacaranda Type-177,"Black_Soil,Laterite_Soil",6.0,7.4,20,42,683,1926,5,30.4,6
+TREE_178,Bahera Type-178,"Black_Soil,Yellow_Soil",5.7,7.7,12,40,470,1858,4,16.3,8
+TREE_179,Karanj Type-179,"Red_Soil,Alluvial_Soil",5.6,7.8,19,38,790,1681,5,31.9,10
+TREE_180,Cedar Type-180,"Black_Soil,Alluvial_Soil",5.8,7.4,13,40,349,2159,4,32.0,7
+TREE_181,Silver Oak Type-181,"Red_Soil,Black_Soil",5.9,8.4,19,47,338,2751,4,20.3,9
+TREE_182,Bahera Type-182,"Red_Soil,Laterite_Soil",6.1,7.9,17,44,461,2018,3,28.3,7
+TREE_183,Silver Oak Type-183,"Alluvial_Soil,Black_Soil",5.4,7.2,14,38,603,2427,4,25.9,12
+TREE_184,Cedar Type-184,"Red_Soil,Black_Soil",5.4,7.1,13,38,633,1381,3,14.6,8
+TREE_185,Karanj Type-185,"Alluvial_Soil,Laterite_Soil",6.4,7.8,14,36,603,2589,5,13.5,8
+TREE_186,Eucalyptus Type-186,"Mountain_Soil,Laterite_Soil",5.9,7.7,11,43,324,2930,4,30.9,5
+TREE_187,Bamboo Type-187,"Laterite_Soil,Black_Soil",5.7,7.6,11,46,428,1774,4,12.1,7
+TREE_188,Neem Type-188,"Arid_Soil,Laterite_Soil",5.1,7.6,18,35,366,1602,3,31.7,11
+TREE_189,Arjun Tree Type-189,"Black_Soil,Red_Soil",6.1,7.2,15,45,573,2083,5,18.9,6
+TREE_190,Peepal Type-190,"Yellow_Soil,Laterite_Soil",5.3,7.4,10,41,493,1248,5,18.2,5
+TREE_191,Peepal Type-191,"Yellow_Soil,Mountain_Soil",5.5,7.2,12,45,571,1912,4,31.1,8
+TREE_192,Bamboo Type-192,"Laterite_Soil,Black_Soil",5.1,7.1,18,46,643,1622,4,21.3,12
+TREE_193,Sal Type-193,"Red_Soil,Arid_Soil",6.1,7.3,14,43,653,1445,3,18.5,5
+TREE_194,Karanj Type-194,"Mountain_Soil,Alluvial_Soil",6.4,7.0,21,44,608,1390,4,19.4,14
+TREE_195,Gulmohar Type-195,"Mountain_Soil,Laterite_Soil",5.9,7.7,13,44,584,1316,5,12.4,10
+TREE_196,Deodar Type-196,"Mountain_Soil,Arid_Soil",5.3,7.2,21,37,720,1526,3,18.0,8
+TREE_197,Eucalyptus Type-197,"Red_Soil,Arid_Soil",5.6,7.8,11,45,688,1290,3,17.0,9
+TREE_198,Bahera Type-198,"Red_Soil,Yellow_Soil",5.0,7.0,21,40,788,2859,5,27.2,5
+TREE_199,Silver Oak Type-199,"Yellow_Soil,Mountain_Soil",5.6,7.6,12,47,625,1826,4,19.5,5
+TREE_200,Karanj Type-200,"Laterite_Soil,Black_Soil",5.5,7.4,10,47,605,1251,5,13.0,12
+TREE_201,Acacia (Babool) Type-201,"Yellow_Soil,Arid_Soil",6.2,7.9,10,43,778,2392,4,21.7,11
+TREE_202,Arjun Tree Type-202,"Alluvial_Soil,Yellow_Soil",5.0,7.5,18,36,451,2062,3,12.0,8
+TREE_203,Cashew Type-203,"Mountain_Soil,Laterite_Soil",6.4,7.1,16,47,427,2471,3,15.1,13
+TREE_204,Silver Oak Type-204,"Mountain_Soil,Arid_Soil",6.1,7.8,18,42,620,1530,4,21.0,10
+TREE_205,Jacaranda Type-205,"Mountain_Soil,Yellow_Soil",6.1,8.4,12,46,595,2900,3,31.4,11
+TREE_206,Deodar Type-206,"Arid_Soil,Red_Soil",6.3,8.2,19,35,468,1239,5,29.7,5
+TREE_207,Shisham Type-207,"Alluvial_Soil,Yellow_Soil",6.2,7.1,20,42,793,1476,3,21.8,14
+TREE_208,Cashew Type-208,"Laterite_Soil,Black_Soil",6.4,7.4,13,41,610,2863,5,16.9,11
+TREE_209,Kadamba Type-209,"Laterite_Soil,Arid_Soil",6.2,8.2,19,46,711,1501,3,31.5,12
+TREE_210,Eucalyptus Type-210,"Black_Soil,Red_Soil",6.1,8.3,20,38,706,2508,4,20.6,13
+TREE_211,Bahera Type-211,"Alluvial_Soil,Mountain_Soil",6.1,7.6,12,43,782,1994,4,24.9,7
+TREE_212,Gulmohar Type-212,"Mountain_Soil,Yellow_Soil",6.3,7.3,10,41,451,1403,5,15.7,7
+TREE_213,Teak Type-213,"Arid_Soil,Yellow_Soil",5.1,7.9,20,45,648,1842,4,29.6,8
+TREE_214,Deodar Type-214,"Red_Soil,Alluvial_Soil",5.4,7.1,10,38,635,2018,4,30.8,11
+TREE_215,Khejri Type-215,"Black_Soil,Arid_Soil",6.3,7.8,14,47,362,2995,3,21.2,12
+TREE_216,Mahogany Type-216,"Red_Soil,Mountain_Soil",6.1,7.4,17,42,530,1889,4,14.8,12
+TREE_217,Silver Oak Type-217,"Yellow_Soil,Laterite_Soil",6.0,7.2,19,39,461,1329,4,17.2,8
+TREE_218,Karanj Type-218,"Yellow_Soil,Mountain_Soil",5.3,8.2,14,38,363,2725,5,25.6,12
+TREE_219,Kadamba Type-219,"Laterite_Soil,Red_Soil",6.2,7.6,16,46,416,2096,4,25.2,7
+TREE_220,Mahogany Type-220,"Laterite_Soil,Arid_Soil",6.4,8.1,16,47,762,2108,5,26.4,8
+TREE_221,Arjun Tree Type-221,"Red_Soil,Arid_Soil",6.2,7.0,17,41,416,1689,3,17.7,10
+TREE_222,Arjun Tree Type-222,"Arid_Soil,Yellow_Soil",6.3,7.6,18,44,527,1469,4,26.7,8
+TREE_223,Deodar Type-223,"Red_Soil,Mountain_Soil",5.9,7.4,20,46,753,1569,4,21.0,8
+TREE_224,Bamboo Type-224,"Alluvial_Soil,Mountain_Soil",6.0,8.4,20,36,675,1997,3,31.2,13
+TREE_225,Gulmohar Type-225,"Black_Soil,Laterite_Soil",5.1,8.1,14,41,483,2467,4,25.4,13
+TREE_226,Cedar Type-226,"Black_Soil,Arid_Soil",6.3,7.5,15,41,536,2849,4,24.9,8
+TREE_227,Pine Type-227,"Yellow_Soil,Black_Soil",5.8,8.0,17,41,538,2589,3,25.0,9
+TREE_228,Sal Type-228,"Mountain_Soil,Arid_Soil",5.7,8.3,17,41,311,2913,4,24.8,11
+TREE_229,Eucalyptus Type-229,"Black_Soil,Alluvial_Soil",6.3,8.4,11,41,302,1622,3,29.1,6
+TREE_230,Teak Type-230,"Arid_Soil,Alluvial_Soil",5.8,7.6,19,42,379,1404,3,25.5,11
+TREE_231,Gulmohar Type-231,"Yellow_Soil,Black_Soil",5.8,7.4,19,38,769,1879,5,23.1,9
+TREE_232,Eucalyptus Type-232,"Red_Soil,Arid_Soil",6.2,8.0,21,36,410,2481,5,17.2,6
+TREE_233,Cedar Type-233,"Arid_Soil,Laterite_Soil",5.9,7.3,20,39,483,2771,4,29.3,8
+TREE_234,Gulmohar Type-234,"Alluvial_Soil,Yellow_Soil",5.2,8.0,19,39,446,1224,5,19.3,9
+TREE_235,Cashew Type-235,"Laterite_Soil,Black_Soil",5.3,7.8,12,42,337,2493,5,15.1,5
+TREE_236,Gulmohar Type-236,"Yellow_Soil,Arid_Soil",6.1,8.2,21,47,555,2131,5,16.1,13
+TREE_237,Pine Type-237,"Black_Soil,Alluvial_Soil",5.8,7.2,13,38,388,1469,4,22.6,6
+TREE_238,Haritaki Type-238,"Laterite_Soil,Alluvial_Soil",5.8,7.3,18,39,787,1317,5,16.0,14
+TREE_239,Amaltas Type-239,"Arid_Soil,Red_Soil",5.2,7.6,21,41,615,1823,5,22.1,6
+TREE_240,Neem Type-240,"Mountain_Soil,Arid_Soil",5.6,7.2,13,44,320,2374,5,21.9,7
+TREE_241,Khejri Type-241,"Black_Soil,Mountain_Soil",5.7,8.4,14,42,361,1274,4,12.5,7
+TREE_242,Arjun Tree Type-242,"Arid_Soil,Black_Soil",6.1,8.2,12,39,731,2762,3,20.1,11
+TREE_243,Karanj Type-243,"Alluvial_Soil,Yellow_Soil",5.5,7.1,17,45,451,2672,4,29.1,11
+TREE_244,Bamboo Type-244,"Black_Soil,Laterite_Soil",5.4,8.1,17,36,582,2039,4,25.4,13
+TREE_245,Khejri Type-245,"Red_Soil,Alluvial_Soil",6.1,8.4,19,41,462,1463,5,21.6,11
+TREE_246,Pine Type-246,"Black_Soil,Mountain_Soil",5.1,8.1,10,36,601,2978,5,24.1,13
+TREE_247,Jacaranda Type-247,"Arid_Soil,Laterite_Soil",6.2,7.5,18,43,707,2886,4,31.8,8
+TREE_248,Shisham Type-248,"Alluvial_Soil,Arid_Soil",5.3,7.7,19,41,537,1298,3,16.3,7
+TREE_249,Cedar Type-249,"Black_Soil,Yellow_Soil",5.6,7.0,17,40,434,2995,3,26.0,6
+TREE_250,Arjun Tree Type-250,"Black_Soil,Red_Soil",5.0,8.0,19,35,652,2065,5,31.8,9
+TREE_251,Neem Type-251,"Laterite_Soil,Yellow_Soil",6.1,7.2,10,40,363,2506,5,20.3,8
+TREE_252,Amla Type-252,"Laterite_Soil,Yellow_Soil",5.3,8.5,20,44,678,1576,3,14.5,8
+TREE_253,Karanj Type-253,"Yellow_Soil,Mountain_Soil",6.3,7.3,20,47,797,1766,5,30.7,11
+TREE_254,Oak Type-254,"Black_Soil,Alluvial_Soil",5.6,7.7,15,38,641,2912,3,24.4,10
+TREE_255,Khejri Type-255,"Yellow_Soil,Arid_Soil",5.2,7.5,12,43,669,2227,3,15.9,7
+TREE_256,Karanj Type-256,"Mountain_Soil,Alluvial_Soil",6.0,8.4,19,46,649,1322,5,27.5,12
+TREE_257,Sandalwood Type-257,"Alluvial_Soil,Arid_Soil",6.4,7.9,20,39,571,1941,3,19.3,8
+TREE_258,Bahera Type-258,"Red_Soil,Black_Soil",5.7,7.3,16,36,444,1334,4,15.0,13
+TREE_259,Gulmohar Type-259,"Laterite_Soil,Yellow_Soil",6.4,7.0,10,38,440,1357,4,20.7,12
+TREE_260,Silver Oak Type-260,"Laterite_Soil,Yellow_Soil",5.4,8.3,14,40,308,2175,3,17.0,5
+TREE_261,Bahera Type-261,"Arid_Soil,Yellow_Soil",5.3,7.4,20,40,354,2791,5,29.4,8
+TREE_262,Silver Oak Type-262,"Yellow_Soil,Black_Soil",5.2,7.0,19,35,755,2579,4,17.4,11
+TREE_263,Arjun Tree Type-263,"Yellow_Soil,Arid_Soil",5.0,8.5,15,44,536,2987,3,19.6,11
+TREE_264,Jacaranda Type-264,"Mountain_Soil,Black_Soil",6.4,8.4,14,46,515,2886,3,25.4,5
+TREE_265,Sandalwood Type-265,"Yellow_Soil,Black_Soil",5.7,8.5,20,39,515,1464,3,19.4,14
+TREE_266,Kadamba Type-266,"Red_Soil,Laterite_Soil",5.4,8.2,15,38,483,2376,4,28.9,8
+TREE_267,Karanj Type-267,"Mountain_Soil,Red_Soil",5.1,7.9,11,38,519,2043,3,23.2,9
+TREE_268,Sal Type-268,"Laterite_Soil,Arid_Soil",6.3,7.9,21,42,575,1418,3,19.2,14
+TREE_269,Haritaki Type-269,"Mountain_Soil,Red_Soil",5.3,7.3,18,47,514,2358,4,31.6,5
+TREE_270,Bahera Type-270,"Laterite_Soil,Red_Soil",5.4,7.1,16,45,446,2714,3,13.0,12
+TREE_271,Pine Type-271,"Laterite_Soil,Alluvial_Soil",5.4,8.2,17,37,547,2662,4,14.5,10
+TREE_272,Acacia (Babool) Type-272,"Laterite_Soil,Yellow_Soil",6.2,8.3,12,36,674,2381,4,23.5,7
+TREE_273,Haritaki Type-273,"Black_Soil,Yellow_Soil",5.8,8.1,10,35,423,2810,3,18.2,13
+TREE_274,Mahogany Type-274,"Alluvial_Soil,Arid_Soil",6.1,7.8,20,47,378,2033,5,28.9,9
+TREE_275,Sal Type-275,"Mountain_Soil,Arid_Soil",6.5,7.2,20,36,515,2714,4,21.7,11
+TREE_276,Teak Type-276,"Laterite_Soil,Black_Soil",5.1,8.4,11,47,705,2221,3,12.2,11
+TREE_277,Shisham Type-277,"Alluvial_Soil,Red_Soil",6.0,8.3,10,45,442,2391,3,12.2,6
+TREE_278,Bahera Type-278,"Yellow_Soil,Arid_Soil",5.8,7.0,15,39,777,2462,4,22.9,14
+TREE_279,Amaltas Type-279,"Alluvial_Soil,Black_Soil",6.3,7.7,15,36,608,2295,3,17.0,8
+TREE_280,Pine Type-280,"Laterite_Soil,Red_Soil",6.1,7.5,13,41,415,1882,5,24.1,9
+TREE_281,Shisham Type-281,"Alluvial_Soil,Arid_Soil",5.4,7.6,13,46,324,1907,4,17.6,5
+TREE_282,Oak Type-282,"Red_Soil,Alluvial_Soil",6.1,7.5,14,45,522,1454,4,21.6,9
+TREE_283,Banyan Type-283,"Laterite_Soil,Arid_Soil",6.4,7.1,17,40,772,1946,5,23.7,14
+TREE_284,Karanj Type-284,"Alluvial_Soil,Black_Soil",6.2,7.8,19,40,453,2945,3,20.2,6
+TREE_285,Oak Type-285,"Alluvial_Soil,Laterite_Soil",5.9,7.8,14,40,788,2278,3,22.6,13
+TREE_286,Eucalyptus Type-286,"Laterite_Soil,Yellow_Soil",6.2,7.5,15,44,408,1885,3,21.9,5
+TREE_287,Arjun Tree Type-287,"Black_Soil,Yellow_Soil",6.0,7.5,18,37,521,2004,4,17.1,6
+TREE_288,Bamboo Type-288,"Red_Soil,Laterite_Soil",5.4,7.5,21,37,604,1586,5,13.2,12
+TREE_289,Pine Type-289,"Arid_Soil,Mountain_Soil",6.3,8.0,11,36,495,2432,5,28.9,9
+TREE_290,Bahera Type-290,"Yellow_Soil,Alluvial_Soil",5.3,7.1,12,36,460,2848,4,25.6,10
+TREE_291,Karanj Type-291,"Black_Soil,Yellow_Soil",5.5,8.2,18,35,316,1898,3,22.8,7
+TREE_292,Eucalyptus Type-292,"Arid_Soil,Mountain_Soil",6.0,8.2,14,36,580,1418,4,20.8,9
+TREE_293,Banyan Type-293,"Red_Soil,Alluvial_Soil",5.2,7.3,13,46,764,1979,3,18.1,14
+TREE_294,Arjun Tree Type-294,"Alluvial_Soil,Mountain_Soil",6.2,7.7,20,46,365,2782,4,26.9,5
+TREE_295,Peepal Type-295,"Mountain_Soil,Red_Soil",5.3,7.8,15,40,455,1741,5,16.8,5
+TREE_296,Jacaranda Type-296,"Laterite_Soil,Arid_Soil",5.6,8.1,14,42,500,2870,4,31.5,6
+TREE_297,Mahogany Type-297,"Arid_Soil,Mountain_Soil",6.2,7.9,12,44,579,1781,4,22.4,11
+TREE_298,Neem Type-298,"Mountain_Soil,Red_Soil",5.1,8.4,19,42,718,2416,4,20.9,6
+TREE_299,Oak Type-299,"Black_Soil,Arid_Soil",6.4,7.7,10,35,590,2665,4,16.5,9
+TREE_300,Kadamba Type-300,"Yellow_Soil,Alluvial_Soil",6.4,8.3,10,37,534,2782,5,24.3,5
+TREE_301,Karanj Type-301,"Mountain_Soil,Alluvial_Soil",5.9,7.4,14,36,332,1962,3,21.1,5
+TREE_302,Amaltas Type-302,"Black_Soil,Yellow_Soil",5.0,8.3,12,45,744,2769,4,20.8,9
+TREE_303,Oak Type-303,"Black_Soil,Alluvial_Soil",6.1,7.9,16,45,657,1297,3,18.9,9
+TREE_304,Sandalwood Type-304,"Mountain_Soil,Arid_Soil",6.3,7.5,13,47,378,2163,3,19.2,14
+TREE_305,Mahogany Type-305,"Alluvial_Soil,Yellow_Soil",6.1,7.1,13,46,346,1412,3,12.4,10
+TREE_306,Kadamba Type-306,"Laterite_Soil,Black_Soil",6.0,7.8,17,37,773,2339,5,25.1,13
+TREE_307,Amaltas Type-307,"Mountain_Soil,Black_Soil",6.4,7.1,10,47,344,1649,5,13.6,12
+TREE_308,Sal Type-308,"Red_Soil,Black_Soil",5.8,8.1,19,42,306,2402,4,19.7,10
+TREE_309,Shisham Type-309,"Laterite_Soil,Black_Soil",5.5,7.2,18,40,546,1547,5,14.6,8
+TREE_310,Banyan Type-310,"Alluvial_Soil,Laterite_Soil",6.3,8.4,16,35,790,1365,5,12.1,11
+TREE_311,Eucalyptus Type-311,"Yellow_Soil,Arid_Soil",5.7,7.4,16,38,775,2798,5,16.9,12
+TREE_312,Khejri Type-312,"Arid_Soil,Mountain_Soil",6.0,7.7,16,38,746,1409,3,22.0,7
+TREE_313,Neem Type-313,"Laterite_Soil,Arid_Soil",5.5,8.0,17,40,744,1383,3,19.3,12
+TREE_314,Pine Type-314,"Mountain_Soil,Red_Soil",5.4,7.6,18,39,426,2626,4,22.3,6
+TREE_315,Peepal Type-315,"Laterite_Soil,Mountain_Soil",6.4,8.1,16,36,407,1823,3,28.9,14
+TREE_316,Banyan Type-316,"Laterite_Soil,Red_Soil",5.1,8.0,15,42,557,1311,4,14.3,10
+TREE_317,Cashew Type-317,"Black_Soil,Arid_Soil",6.2,7.4,21,43,342,2926,5,24.3,5
+TREE_318,Deodar Type-318,"Arid_Soil,Alluvial_Soil",5.2,7.4,13,47,589,2591,5,30.2,7
+TREE_319,Silver Oak Type-319,"Yellow_Soil,Red_Soil",5.1,7.1,16,37,613,1679,4,16.4,14
+TREE_320,Gulmohar Type-320,"Laterite_Soil,Black_Soil",5.6,8.5,13,45,430,2762,3,15.5,10
+TREE_321,Haritaki Type-321,"Arid_Soil,Black_Soil",5.3,7.6,17,38,439,2655,5,26.1,8
+TREE_322,Bamboo Type-322,"Laterite_Soil,Alluvial_Soil",5.2,8.0,15,41,761,2604,5,30.1,14
+TREE_323,Acacia (Babool) Type-323,"Laterite_Soil,Yellow_Soil",6.2,8.1,11,46,748,1704,5,25.1,13
+TREE_324,Bahera Type-324,"Black_Soil,Mountain_Soil",6.3,7.1,14,37,615,2473,5,15.7,12
+TREE_325,Shisham Type-325,"Mountain_Soil,Alluvial_Soil",6.1,7.3,21,39,632,2644,5,28.2,5
+TREE_326,Oak Type-326,"Alluvial_Soil,Red_Soil",5.2,8.2,10,36,748,1454,5,24.2,7
+TREE_327,Mahogany Type-327,"Laterite_Soil,Mountain_Soil",5.2,8.0,16,40,566,2933,4,23.0,5
+TREE_328,Shisham Type-328,"Laterite_Soil,Alluvial_Soil",6.5,8.4,18,37,570,2096,4,26.2,14
+TREE_329,Khejri Type-329,"Black_Soil,Red_Soil",5.5,7.1,17,38,455,2095,4,27.5,7
+TREE_330,Haritaki Type-330,"Yellow_Soil,Black_Soil",5.3,8.2,15,41,347,2458,5,15.6,8
+TREE_331,Kadamba Type-331,"Alluvial_Soil,Black_Soil",6.1,8.4,11,41,719,1709,4,31.7,14
+TREE_332,Sal Type-332,"Black_Soil,Alluvial_Soil",5.4,7.3,20,44,511,2243,4,22.5,11
+TREE_333,Oak Type-333,"Arid_Soil,Laterite_Soil",5.2,7.7,19,37,446,2900,4,20.2,10
+TREE_334,Acacia (Babool) Type-334,"Black_Soil,Arid_Soil",5.7,7.6,14,45,680,2359,5,17.5,5
+TREE_335,Kadamba Type-335,"Mountain_Soil,Red_Soil",6.3,8.3,18,43,456,1880,3,28.7,12
+TREE_336,Peepal Type-336,"Red_Soil,Laterite_Soil",5.8,7.5,20,44,634,1375,3,19.7,9
+TREE_337,Cashew Type-337,"Mountain_Soil,Red_Soil",5.1,7.9,12,35,438,1605,5,29.0,5
+TREE_338,Bamboo Type-338,"Red_Soil,Laterite_Soil",5.1,7.9,21,44,465,1278,4,12.5,8
+TREE_339,Eucalyptus Type-339,"Alluvial_Soil,Arid_Soil",5.3,7.1,21,37,682,1365,5,21.2,9
+TREE_340,Acacia (Babool) Type-340,"Red_Soil,Mountain_Soil",5.1,7.7,19,43,451,2684,3,25.4,9
+TREE_341,Bamboo Type-341,"Yellow_Soil,Mountain_Soil",6.1,7.4,15,44,569,2966,3,13.9,10
+TREE_342,Amaltas Type-342,"Mountain_Soil,Black_Soil",5.6,7.9,15,43,594,2428,5,19.5,8
+TREE_343,Amaltas Type-343,"Alluvial_Soil,Mountain_Soil",6.4,8.1,13,43,672,2501,3,13.1,5
+TREE_344,Oak Type-344,"Red_Soil,Alluvial_Soil",5.5,7.5,21,38,505,1872,5,14.1,7
+TREE_345,Cedar Type-345,"Black_Soil,Laterite_Soil",6.4,8.0,15,44,741,2016,4,26.5,9
+TREE_346,Cedar Type-346,"Alluvial_Soil,Yellow_Soil",5.8,7.6,19,40,586,1792,4,27.0,11
+TREE_347,Kadamba Type-347,"Arid_Soil,Black_Soil",5.6,8.1,17,46,313,2663,3,19.9,7
+TREE_348,Cedar Type-348,"Laterite_Soil,Mountain_Soil",5.9,7.3,19,43,398,2850,5,20.1,13
+TREE_349,Sandalwood Type-349,"Red_Soil,Mountain_Soil",6.0,7.8,21,40,771,2063,3,23.5,11
+TREE_350,Khejri Type-350,"Alluvial_Soil,Yellow_Soil",6.5,8.1,14,36,741,2548,3,23.8,5
+TREE_351,Khejri Type-351,"Red_Soil,Arid_Soil",6.1,7.3,12,36,534,2485,4,24.6,7
+TREE_352,Amaltas Type-352,"Black_Soil,Red_Soil",6.0,7.7,10,44,437,1378,3,31.9,6
+TREE_353,Neem Type-353,"Black_Soil,Alluvial_Soil",6.2,7.8,12,35,546,2751,4,14.0,13
+TREE_354,Mahogany Type-354,"Black_Soil,Arid_Soil",6.4,7.4,21,43,695,2973,4,18.1,5
+TREE_355,Bahera Type-355,"Yellow_Soil,Red_Soil",5.5,7.0,11,39,374,2090,5,29.6,14
+TREE_356,Deodar Type-356,"Red_Soil,Arid_Soil",5.5,7.4,15,36,441,1521,4,26.5,5
+TREE_357,Deodar Type-357,"Mountain_Soil,Alluvial_Soil",6.3,7.2,16,47,768,1291,3,21.2,7
+TREE_358,Bahera Type-358,"Alluvial_Soil,Black_Soil",5.8,8.3,11,40,767,2345,4,24.1,12
+TREE_359,Bamboo Type-359,"Red_Soil,Yellow_Soil",5.3,8.3,11,42,404,2292,3,16.1,12
+TREE_360,Sal Type-360,"Red_Soil,Yellow_Soil",5.6,7.9,10,37,707,2016,4,13.3,11
+TREE_361,Kadamba Type-361,"Laterite_Soil,Red_Soil",5.0,7.6,12,42,402,2835,3,24.8,7
+TREE_362,Sal Type-362,"Alluvial_Soil,Mountain_Soil",5.1,8.1,15,37,611,1358,5,15.3,13
+TREE_363,Teak Type-363,"Black_Soil,Red_Soil",5.6,7.5,18,39,341,2916,3,15.9,10
+TREE_364,Pine Type-364,"Arid_Soil,Mountain_Soil",5.1,7.6,11,39,459,1462,4,24.2,10
+TREE_365,Pine Type-365,"Black_Soil,Yellow_Soil",6.1,8.1,20,35,691,1455,4,14.3,7
+TREE_366,Bamboo Type-366,"Alluvial_Soil,Yellow_Soil",5.4,7.2,19,45,381,2827,3,15.0,9
+TREE_367,Arjun Tree Type-367,"Laterite_Soil,Yellow_Soil",5.1,8.2,20,43,768,2405,5,12.9,12
+TREE_368,Mahogany Type-368,"Red_Soil,Yellow_Soil",5.1,7.9,19,40,383,1718,4,30.1,11
+TREE_369,Sal Type-369,"Arid_Soil,Black_Soil",5.6,8.0,17,47,572,2155,4,17.4,10
+TREE_370,Haritaki Type-370,"Laterite_Soil,Black_Soil",5.4,7.0,19,38,693,2087,4,15.6,14
+TREE_371,Amaltas Type-371,"Arid_Soil,Mountain_Soil",5.7,7.6,20,47,653,1622,3,18.2,6
+TREE_372,Bahera Type-372,"Arid_Soil,Laterite_Soil",5.4,8.1,18,45,480,2588,4,12.4,5
+TREE_373,Banyan Type-373,"Laterite_Soil,Mountain_Soil",5.8,7.1,12,41,731,2764,4,29.5,10
+TREE_374,Mahogany Type-374,"Laterite_Soil,Yellow_Soil",5.2,7.8,11,47,692,1278,4,19.8,7
+TREE_375,Oak Type-375,"Black_Soil,Red_Soil",5.0,7.1,17,44,515,2050,5,15.4,9
+TREE_376,Kadamba Type-376,"Black_Soil,Laterite_Soil",6.5,7.3,20,40,613,2966,3,12.1,5
+TREE_377,Karanj Type-377,"Red_Soil,Black_Soil",6.0,8.3,14,42,475,1940,3,28.4,13
+TREE_378,Oak Type-378,"Mountain_Soil,Laterite_Soil",5.5,7.6,19,44,344,2483,5,14.4,9
+TREE_379,Amla Type-379,"Black_Soil,Laterite_Soil",5.5,8.3,17,40,372,2852,4,14.6,8
+TREE_380,Cedar Type-380,"Alluvial_Soil,Red_Soil",5.6,8.4,16,35,536,1806,5,21.5,11
+TREE_381,Kadamba Type-381,"Yellow_Soil,Black_Soil",5.8,7.4,14,35,489,2417,4,28.0,11
+TREE_382,Banyan Type-382,"Alluvial_Soil,Arid_Soil",6.3,7.0,10,42,683,2653,5,12.2,13
+TREE_383,Sandalwood Type-383,"Laterite_Soil,Arid_Soil",6.3,7.7,11,36,464,1912,3,13.0,14
+TREE_384,Jacaranda Type-384,"Mountain_Soil,Black_Soil",5.3,8.5,17,39,352,2682,5,28.2,12
+TREE_385,Bahera Type-385,"Black_Soil,Laterite_Soil",5.8,7.7,21,39,414,1486,3,16.4,6
+TREE_386,Peepal Type-386,"Laterite_Soil,Mountain_Soil",5.3,7.5,10,45,753,1503,4,21.1,13
+TREE_387,Bamboo Type-387,"Laterite_Soil,Arid_Soil",5.8,7.9,20,45,525,1667,5,28.8,14
+TREE_388,Kadamba Type-388,"Black_Soil,Arid_Soil",6.0,7.6,20,42,487,2217,5,26.6,12
+TREE_389,Amaltas Type-389,"Mountain_Soil,Red_Soil",5.5,8.1,13,40,734,2988,3,19.8,5
+TREE_390,Arjun Tree Type-390,"Black_Soil,Arid_Soil",5.0,8.1,21,38,709,1937,5,13.4,9
+TREE_391,Deodar Type-391,"Laterite_Soil,Mountain_Soil",6.0,8.4,10,39,719,1246,4,25.5,8
+TREE_392,Khejri Type-392,"Yellow_Soil,Alluvial_Soil",6.0,7.2,11,37,458,2691,4,18.3,11
+TREE_393,Silver Oak Type-393,"Red_Soil,Black_Soil",5.9,7.0,19,40,369,2872,5,28.2,8
+TREE_394,Bahera Type-394,"Laterite_Soil,Black_Soil",5.6,8.0,17,41,596,2133,3,30.0,8
+TREE_395,Karanj Type-395,"Alluvial_Soil,Laterite_Soil",6.1,7.8,15,40,447,1271,4,25.9,8
+TREE_396,Kadamba Type-396,"Yellow_Soil,Red_Soil",5.3,8.1,13,39,747,2967,5,29.8,6
+TREE_397,Haritaki Type-397,"Arid_Soil,Black_Soil",6.2,7.6,11,40,527,1463,3,25.8,14
+TREE_398,Mahogany Type-398,"Alluvial_Soil,Yellow_Soil",5.8,7.5,21,40,653,2771,5,30.5,7
+TREE_399,Silver Oak Type-399,"Laterite_Soil,Yellow_Soil",6.2,7.8,17,40,448,1305,4,30.4,5
+TREE_400,Jacaranda Type-400,"Yellow_Soil,Alluvial_Soil",5.8,7.1,11,44,636,1534,3,17.2,13
+TREE_401,Sal Type-401,"Laterite_Soil,Alluvial_Soil",5.4,7.9,11,36,791,2204,3,14.2,6
+TREE_402,Shisham Type-402,"Yellow_Soil,Red_Soil",5.7,7.6,19,39,590,1864,5,25.5,9
+TREE_403,Pine Type-403,"Arid_Soil,Laterite_Soil",6.5,7.4,12,42,349,2042,5,12.7,12
+TREE_404,Gulmohar Type-404,"Red_Soil,Yellow_Soil",5.7,7.9,20,36,472,2779,3,14.1,7
+TREE_405,Amla Type-405,"Red_Soil,Arid_Soil",6.0,7.1,12,42,511,1287,3,14.2,13
+TREE_406,Haritaki Type-406,"Yellow_Soil,Arid_Soil",6.2,7.0,11,41,638,1941,5,17.6,14
+TREE_407,Karanj Type-407,"Mountain_Soil,Black_Soil",5.6,7.1,16,39,645,2251,5,19.7,11
+TREE_408,Haritaki Type-408,"Alluvial_Soil,Black_Soil",5.7,8.5,21,35,639,2558,5,20.4,8
+TREE_409,Peepal Type-409,"Mountain_Soil,Laterite_Soil",6.1,7.5,21,46,663,2912,3,31.3,10
+TREE_410,Pine Type-410,"Mountain_Soil,Black_Soil",5.7,8.2,16,43,703,2042,5,14.5,14
+TREE_411,Deodar Type-411,"Mountain_Soil,Yellow_Soil",5.1,7.8,15,40,311,1581,4,31.3,8
+TREE_412,Gulmohar Type-412,"Yellow_Soil,Arid_Soil",6.4,7.9,14,43,613,2056,3,12.1,11
+TREE_413,Deodar Type-413,"Red_Soil,Black_Soil",5.8,8.1,18,38,631,2361,3,31.7,8
+TREE_414,Acacia (Babool) Type-414,"Alluvial_Soil,Laterite_Soil",5.7,8.2,19,35,468,1488,5,20.7,5
+TREE_415,Eucalyptus Type-415,"Red_Soil,Mountain_Soil",5.1,8.2,16,38,668,2625,4,21.8,6
+TREE_416,Bahera Type-416,"Mountain_Soil,Laterite_Soil",6.2,7.3,18,39,701,1339,5,26.3,9
+TREE_417,Silver Oak Type-417,"Red_Soil,Alluvial_Soil",5.3,8.3,16,39,632,2899,3,26.8,6
+TREE_418,Bahera Type-418,"Yellow_Soil,Laterite_Soil",5.1,8.3,11,42,756,1870,3,15.2,7
+TREE_419,Cashew Type-419,"Arid_Soil,Alluvial_Soil",6.5,8.0,14,37,631,2839,4,17.2,8
+TREE_420,Khejri Type-420,"Mountain_Soil,Yellow_Soil",5.7,7.5,17,39,400,1457,5,30.6,10
+TREE_421,Arjun Tree Type-421,"Red_Soil,Yellow_Soil",6.3,8.2,11,39,443,2467,3,13.3,8
+TREE_422,Bamboo Type-422,"Mountain_Soil,Arid_Soil",5.7,8.3,18,46,484,2204,5,25.8,9
+TREE_423,Bahera Type-423,"Mountain_Soil,Laterite_Soil",6.2,8.1,18,39,432,2617,5,22.0,10
+TREE_424,Bamboo Type-424,"Laterite_Soil,Black_Soil",6.1,8.2,16,36,563,1969,5,27.2,11
+TREE_425,Shisham Type-425,"Laterite_Soil,Mountain_Soil",5.8,7.5,21,46,542,1622,4,22.3,9
+TREE_426,Neem Type-426,"Mountain_Soil,Red_Soil",5.0,8.2,14,47,460,1414,3,20.0,7
+TREE_427,Sal Type-427,"Alluvial_Soil,Arid_Soil",6.1,7.8,12,45,781,1331,3,16.4,10
+TREE_428,Peepal Type-428,"Mountain_Soil,Red_Soil",5.5,7.1,18,40,399,2356,3,27.6,5
+TREE_429,Eucalyptus Type-429,"Arid_Soil,Yellow_Soil",5.9,7.7,14,42,398,2414,4,22.0,11
+TREE_430,Neem Type-430,"Yellow_Soil,Mountain_Soil",5.5,8.0,19,41,532,2269,5,15.9,9
+TREE_431,Amla Type-431,"Alluvial_Soil,Black_Soil",5.0,8.2,11,37,707,2442,3,23.3,14
+TREE_432,Shisham Type-432,"Laterite_Soil,Mountain_Soil",6.1,7.4,10,43,606,2159,3,24.0,12
+TREE_433,Neem Type-433,"Black_Soil,Arid_Soil",5.6,7.0,12,45,362,1322,3,17.6,12
+TREE_434,Eucalyptus Type-434,"Laterite_Soil,Mountain_Soil",5.2,8.3,11,43,368,2491,4,13.1,9
+TREE_435,Banyan Type-435,"Alluvial_Soil,Red_Soil",6.2,8.3,21,41,782,2290,5,27.4,10
+TREE_436,Sal Type-436,"Laterite_Soil,Alluvial_Soil",5.1,7.1,10,43,328,2221,3,25.4,7
+TREE_437,Gulmohar Type-437,"Arid_Soil,Mountain_Soil",5.5,8.2,21,41,759,2713,4,23.8,6
+TREE_438,Kadamba Type-438,"Alluvial_Soil,Red_Soil",5.2,7.5,11,39,605,1730,4,27.3,12
+TREE_439,Mahogany Type-439,"Black_Soil,Arid_Soil",6.4,8.0,14,39,316,1610,4,18.3,11
+TREE_440,Haritaki Type-440,"Arid_Soil,Yellow_Soil",5.5,7.6,19,38,786,2099,5,13.7,11
+TREE_441,Teak Type-441,"Laterite_Soil,Arid_Soil",5.8,7.1,18,35,603,2933,5,16.2,14
+TREE_442,Eucalyptus Type-442,"Alluvial_Soil,Yellow_Soil",6.4,7.3,14,47,635,1545,5,31.6,14
+TREE_443,Cashew Type-443,"Mountain_Soil,Alluvial_Soil",5.6,7.2,12,43,471,2164,3,15.6,12
+TREE_444,Amla Type-444,"Laterite_Soil,Black_Soil",5.1,7.5,15,44,393,1266,5,19.4,11
+TREE_445,Sal Type-445,"Mountain_Soil,Arid_Soil",6.2,8.0,18,44,707,2622,3,23.2,11
+TREE_446,Silver Oak Type-446,"Black_Soil,Mountain_Soil",5.6,7.1,15,43,620,1947,4,27.9,11
+TREE_447,Banyan Type-447,"Alluvial_Soil,Arid_Soil",5.5,8.3,21,36,690,2115,5,15.1,8
+TREE_448,Gulmohar Type-448,"Alluvial_Soil,Yellow_Soil",6.2,7.8,17,39,340,1297,3,23.8,12
+TREE_449,Sal Type-449,"Yellow_Soil,Alluvial_Soil",5.1,7.8,11,36,679,1901,5,15.9,14
+TREE_450,Acacia (Babool) Type-450,"Laterite_Soil,Alluvial_Soil",5.5,7.1,16,36,798,1317,3,29.5,12
+TREE_451,Shisham Type-451,"Yellow_Soil,Red_Soil",5.4,8.4,17,39,399,1684,4,15.5,6
+TREE_452,Sandalwood Type-452,"Laterite_Soil,Red_Soil",6.1,7.4,14,41,437,1598,4,17.2,12
+TREE_453,Sandalwood Type-453,"Yellow_Soil,Alluvial_Soil",5.9,8.4,19,35,784,2993,4,16.2,5
+TREE_454,Teak Type-454,"Red_Soil,Alluvial_Soil",5.3,7.3,16,43,463,2893,5,21.7,14
+TREE_455,Oak Type-455,"Black_Soil,Mountain_Soil",5.2,7.2,15,39,660,2467,5,30.1,8
+TREE_456,Mahogany Type-456,"Arid_Soil,Red_Soil",5.2,8.1,12,46,761,1948,4,15.7,13
+TREE_457,Bamboo Type-457,"Mountain_Soil,Yellow_Soil",6.4,7.1,18,43,447,1821,3,26.1,7
+TREE_458,Eucalyptus Type-458,"Alluvial_Soil,Yellow_Soil",5.1,8.4,17,42,666,2560,5,30.6,5
+TREE_459,Bahera Type-459,"Alluvial_Soil,Red_Soil",5.4,7.7,16,47,346,1439,5,27.4,12
+TREE_460,Bamboo Type-460,"Red_Soil,Arid_Soil",5.7,7.5,11,37,487,2343,4,22.1,7
+TREE_461,Teak Type-461,"Yellow_Soil,Red_Soil",6.2,7.0,16,42,314,2929,4,25.1,13
+TREE_462,Sal Type-462,"Alluvial_Soil,Laterite_Soil",5.6,8.2,13,42,701,2726,5,26.4,7
+TREE_463,Cashew Type-463,"Arid_Soil,Yellow_Soil",5.7,7.1,13,42,604,2774,5,20.4,7
+TREE_464,Karanj Type-464,"Yellow_Soil,Arid_Soil",5.4,7.7,21,44,602,2620,5,25.1,13
+TREE_465,Khejri Type-465,"Mountain_Soil,Yellow_Soil",5.7,7.4,18,37,704,1354,5,15.2,14
+TREE_466,Cedar Type-466,"Red_Soil,Black_Soil",5.4,7.8,12,47,508,1828,3,25.5,7
+TREE_467,Bahera Type-467,"Red_Soil,Mountain_Soil",6.0,7.9,13,45,325,1427,4,13.7,11
+TREE_468,Sal Type-468,"Yellow_Soil,Alluvial_Soil",5.5,7.6,20,35,473,2418,4,18.9,13
+TREE_469,Jacaranda Type-469,"Arid_Soil,Mountain_Soil",5.7,7.4,12,47,523,1364,3,23.0,5
+TREE_470,Cashew Type-470,"Arid_Soil,Red_Soil",6.0,8.1,20,42,619,1352,4,21.2,11
+TREE_471,Oak Type-471,"Black_Soil,Laterite_Soil",6.3,7.5,12,42,405,2951,3,17.1,6
+TREE_472,Kadamba Type-472,"Mountain_Soil,Red_Soil",6.4,8.1,10,42,402,2086,3,21.0,9
+TREE_473,Mahogany Type-473,"Alluvial_Soil,Arid_Soil",6.4,8.1,21,46,391,2009,5,31.6,7
+TREE_474,Silver Oak Type-474,"Laterite_Soil,Arid_Soil",5.9,7.2,13,35,663,1671,4,18.6,10
+TREE_475,Neem Type-475,"Arid_Soil,Yellow_Soil",6.1,7.0,13,43,478,1606,4,16.5,13
+TREE_476,Cedar Type-476,"Laterite_Soil,Red_Soil",6.3,8.1,14,38,725,1722,4,29.6,5
+TREE_477,Banyan Type-477,"Black_Soil,Mountain_Soil",6.4,7.3,20,47,713,2000,4,20.1,14
+TREE_478,Acacia (Babool) Type-478,"Black_Soil,Alluvial_Soil",6.0,8.0,19,43,567,2650,3,27.9,7
+TREE_479,Khejri Type-479,"Mountain_Soil,Arid_Soil",5.2,7.6,10,46,774,1996,5,25.3,7
+TREE_480,Oak Type-480,"Arid_Soil,Alluvial_Soil",6.1,8.0,19,44,664,2389,3,28.0,7
+TREE_481,Amla Type-481,"Alluvial_Soil,Yellow_Soil",5.8,7.9,19,37,595,1434,5,25.1,14
+TREE_482,Amaltas Type-482,"Mountain_Soil,Arid_Soil",5.1,7.3,15,36,681,2382,4,17.8,6
+TREE_483,Peepal Type-483,"Laterite_Soil,Yellow_Soil",5.1,7.7,10,46,681,2232,3,17.5,13
+TREE_484,Kadamba Type-484,"Arid_Soil,Red_Soil",5.3,8.4,20,38,777,2654,3,17.8,9
+TREE_485,Arjun Tree Type-485,"Yellow_Soil,Mountain_Soil",5.7,7.4,12,36,732,2930,5,24.6,6
+TREE_486,Bahera Type-486,"Black_Soil,Yellow_Soil",6.1,7.2,16,38,674,2007,3,22.6,11
+TREE_487,Peepal Type-487,"Laterite_Soil,Arid_Soil",6.2,7.8,10,40,543,2549,3,26.0,10
+TREE_488,Shisham Type-488,"Yellow_Soil,Alluvial_Soil",5.2,8.4,18,37,762,1257,4,16.7,14
+TREE_489,Peepal Type-489,"Arid_Soil,Laterite_Soil",6.3,8.1,11,44,617,1537,5,18.4,11
+TREE_490,Eucalyptus Type-490,"Red_Soil,Mountain_Soil",6.0,8.2,21,39,738,2583,3,22.5,14
+TREE_491,Eucalyptus Type-491,"Black_Soil,Mountain_Soil",5.8,7.8,16,43,753,2038,3,27.1,14
+TREE_492,Silver Oak Type-492,"Alluvial_Soil,Black_Soil",5.1,7.6,14,39,734,2405,5,20.6,11
+TREE_493,Deodar Type-493,"Laterite_Soil,Yellow_Soil",6.1,8.2,10,44,421,1555,3,26.7,12
+TREE_494,Haritaki Type-494,"Alluvial_Soil,Mountain_Soil",5.6,8.0,12,38,739,2709,4,17.3,14
+TREE_495,Eucalyptus Type-495,"Red_Soil,Laterite_Soil",5.2,7.6,16,37,551,1406,5,23.1,5
+TREE_496,Karanj Type-496,"Laterite_Soil,Red_Soil",5.3,7.7,19,44,634,1812,3,16.8,13
+TREE_497,Karanj Type-497,"Alluvial_Soil,Black_Soil",5.6,7.0,14,43,516,2328,4,18.3,13
+TREE_498,Karanj Type-498,"Red_Soil,Black_Soil",6.2,8.1,14,45,625,2055,5,24.4,12
+TREE_499,Karanj Type-499,"Arid_Soil,Red_Soil",5.4,8.4,14,39,495,1734,3,14.2,7
+TREE_500,Oak Type-500,"Red_Soil,Black_Soil",5.1,8.4,15,42,319,2870,5,19.9,9

@@ -1,14 +1,19 @@
-# Exclude heavy datasets
-*Dataset*/
-DeepGlobeDataset/
-dataset/
-
-# Exclude python virtual environments
+# Virtual Environment
 ai_env/
 venv/
-.env
+.venv/
 
-# Exclude node modules
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Next.js & Node
 node_modules/
-dist/
+.next/
+out/
+
+# IDE / OS
+.vscode/
+.idea/
 .DS_Store

@@ -1,57 +1,63 @@
+import os
+import pandas as pd
 import numpy as np
 
-class TreeRecommendationEngine:
-    def __init__(self):
-        # Master Tree Database: Har tree ki ideal growth conditions
-        self.tree_database = {
-            "Neem": {"land": ["barren", "rangeland"], "min_temp": 20, "max_temp": 45, "min_humidity": 15, "max_aqi": 5, "type": "Drought Resistant"},
-            "Acacia (Babool)": {"land": ["barren"], "min_temp": 15, "max_temp": 48, "min_humidity": 10, "max_aqi": 5, "type": "Arid Hardy"},
-            "Shisham": {"land": ["rangeland", "barren"], "min_temp": 10, "max_temp": 40, "min_humidity": 30, "max_aqi": 4, "type": "Timber Value"},
-            "Bamboo": {"land": ["rangeland", "water_edge"], "min_temp": 15, "max_temp": 38, "min_humidity": 50, "max_aqi": 4, "type": "Soil Binder"},
-            "Khejri": {"land": ["barren"], "min_temp": 10, "max_temp": 50, "min_humidity": 5, "max_aqi": 5, "type": "Desert Special"},
-            "Amaltas": {"land": ["rangeland"], "min_temp": 15, "max_temp": 42, "min_humidity": 25, "max_aqi": 3, "type": "Eco-Balancer"}
-        }
+class TreeEngine:
+    def __init__(self, csv_path: str = "datasets/tree_species_10000.csv"):
+        self.csv_path = csv_path
+        self.df = self._load_dataset()
 
-    def recommend_trees(self, land_type, env_profile):
-        """
-        land_type: 'barren' ya 'rangeland' (Model 1 se jo milega)
-        env_profile: Fallback/Live JSON object jo API service se mila hai
-        """
-        # Dictionary parameters extract karna
-        weather = env_profile.get('weather', {})
-        air = env_profile.get('air_quality', {})
+    def _load_dataset(self) -> pd.DataFrame:
+        if os.path.exists(self.csv_path):
+            return pd.read_csv(self.csv_path)
+        else:
+            soils = ["Alluvial_Soil", "Black_Soil", "Red_Soil", "Arid_Soil", "Laterite_Soil", "Mountain_Soil", "Yellow_Soil"]
+            data = []
+            for i in range(1, 10001):
+                data.append({
+                    "species_id": f"TREE_{i:05d}",
+                    "species_name": f"Species_Var_{i}",
+                    "soil_types": ",".join(np.random.choice(soils, size=2, replace=False)),
+                    "min_ph": round(float(np.random.uniform(4.5, 6.0)), 1),
+                    "max_ph": round(float(np.random.uniform(7.0, 8.5)), 1),
+                    "min_temp_c": int(np.random.randint(10, 20)),
+                    "max_temp_c": int(np.random.randint(30, 45)),
+                    "min_rainfall_mm": int(np.random.randint(300, 800)),
+                    "max_rainfall_mm": int(np.random.randint(1200, 2500)),
+                    "aqi_max_tolerance": int(np.random.randint(2, 5)),
+                    "co2_absorption_kg_yr": round(float(np.random.uniform(12.0, 32.0)), 1),
+                    "maturation_years": int(np.random.randint(5, 15))
+                })
+            return pd.DataFrame(data)
+
+    def recommend_best_tree(self, soil_type: str, telemetry: dict) -> dict:
+        ph = float(telemetry.get('pH', 6.5))
+        rainfall = float(telemetry.get('Rainfall', 800.0))
+        temp = float(telemetry.get('Temperature', 25.0))
         
-        current_temp = weather.get('temperature', 25.0)
-        current_hum = weather.get('humidity', 50.0)
-        aqi = air.get('aqi_index', 3)
-        
-        scored_recommendations = []
-        
-        for tree_name, specs in self.tree_database.items():
-            # Condition 1: Land type match hona chahiye
-            if land_type not in specs["land"]:
-                continue
-                
-            # Condition 2: Temperature control limit
-            if not (specs["min_temp"] <= current_temp <= specs["max_temp"]):
-                continue
-                
-            # Initial Base Score
-            score = 100
-            
-            # AQI stress management penalty
-            if aqi > specs["max_aqi"]:
-                score -= 30
-                
-            # Humidity adjustment
-            if current_hum < specs["min_humidity"]:
-                score -= 15
-                
-            scored_recommendations.append({
-                "tree_name": tree_name,
-                "type": specs["type"],
-                "match_score": max(0, score)
-            })
-            
-        # Descending order mein sort karna highest match rate ke sath
-        return sorted(scored_recommendations, key=lambda x: x['match_score'], reverse=True)[:5]
+        matching_df = self.df[self.df['soil_types'].str.contains(soil_type, case=False, na=False)].copy()
+        if matching_df.empty:
+            matching_df = self.df.copy()
+
+        ph_penalty = np.maximum(0, matching_df['min_ph'] - ph) + np.maximum(0, ph - matching_df['max_ph'])
+        temp_penalty = np.maximum(0, matching_df['min_temp_c'] - temp) + np.maximum(0, temp - matching_df['max_temp_c'])
+        rain_penalty = np.maximum(0, matching_df['min_rainfall_mm'] - rainfall) + np.maximum(0, rainfall - matching_df['max_rainfall_mm'])
+
+        matching_df['suitability_score'] = (ph_penalty * 10.0) + (temp_penalty * 2.0) + (rain_penalty / 50.0)
+
+        sorted_df = matching_df.sort_values(by='suitability_score', ascending=True)
+        best_match = sorted_df.iloc[0]
+
+        alt_matches = []
+        if len(sorted_df) > 2:
+            alt_matches = [
+                str(sorted_df.iloc[1]['species_name']),
+                str(sorted_df.iloc[2]['species_name'])
+            ]
+
+        return {
+            "species_name": str(best_match['species_name']),
+            "co2_rate": float(best_match['co2_absorption_kg_yr']),
+            "maturation_years": int(best_match['maturation_years']),
+            "alternative_species": alt_matches
+        }

@@ -1,0 +1,22 @@
+PROJECT STRUCTURE
+==================================================
+
+.
+  01_dataset_exploration.ipynb
+  02_model_training.ipynb
+  03_inference.ipynb
+  04_tree_recommendation.ipynb
+  05_survival_prediction.ipynb
+  06_carbon_credits.ipynb
+  project_report.txt
+  _03.1_inference.ipynb
+
+.\checkpoints
+  ml_encoders.pkl
+  survival_regressor.pkl
+  tree_recommender.pkl
+
+.\datasets
+
+.\datasets\master
+  master_dataset.csv
